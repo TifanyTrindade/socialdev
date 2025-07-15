@@ -12,6 +12,7 @@ body {
   padding: 40px 20px;
 }
 
+/*Configurações video*/
 #bg-video {
   position: fixed;
   right: 0;
@@ -28,7 +29,7 @@ body {
   height: 120px;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid #4a0d81;
+  border: 3px solid #fff;
   margin-bottom: 20px;
 }
 
@@ -43,7 +44,11 @@ h1 {
 }
 
 h1:hover {
-  color: #d5aafb; /* Cor ao passar o mouse (rosa, por exemplo) */
+  color: #1a8e96; /* Cor ao passar o mouse (rosa, por exemplo) */
+}
+
+p {
+  font-size: px;
 }
 
 /*Configurações de Botão*/
@@ -52,7 +57,7 @@ h1:hover {
   max-width: 300px;
   margin: 10px 0;
   padding: 15px;
-  background-color: #4a0d81;
+  background-color: #00455c;
   color: #fff;
   text-align: center;
   text-decoration: none;
@@ -62,7 +67,7 @@ h1:hover {
 }
 
 .button:hover {
-  background-color: #79529b;
+  background-color: #1a8e96;
 }
 
 /*Confugurações Roda pé*/
@@ -73,7 +78,7 @@ footer {
   position: fixed; /* Mantém o rodapé fixo */
   bottom: 0; /* Gruda no final da tela */
   width: 100%; /* Ocupa toda a largura */
-  font-size: 10px; /* Tamanho do texto */
+  font-size: 12px; /* Tamanho do texto */
 }
 
 footer p {
@@ -81,5 +86,5 @@ footer p {
 }
 
 footer p:hover {
-  color: #79529b;
+  color: #1a8e96;
 }
