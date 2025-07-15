@@ -44,7 +44,12 @@ h1 {
 }
 
 h1:hover {
-  color: #1a8e96; /* Cor ao passar o mouse (rosa, por exemplo) */
+  color: #951cff; /* Cor ao passar o mouse (rosa, por exemplo) */
+}
+
+/*Configurações de Paragráfo*/
+.p1 {
+  font-size: 14px;
 }
 
 p {
@@ -57,8 +62,8 @@ p {
   max-width: 300px;
   margin: 10px 0;
   padding: 15px;
-  background-color: #00455c;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
   text-align: center;
   text-decoration: none;
   font-weight: bold;
@@ -67,7 +72,8 @@ p {
 }
 
 .button:hover {
-  background-color: #1a8e96;
+  background-color: #4a0d81;
+  color: #fff;
 }
 
 /*Confugurações Roda pé*/
@@ -86,5 +92,5 @@ footer p {
 }
 
 footer p:hover {
-  color: #1a8e96;
+  color: #951cff;
 }
