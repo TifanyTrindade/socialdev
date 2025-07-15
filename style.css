@@ -12,11 +12,14 @@ body {
   padding: 40px 20px;
 }
 
-body {
-  background-image: url(imagens/fundo.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+#bg-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  object-fit: cover;
 }
 
 /* Configurações de Imagem*/
