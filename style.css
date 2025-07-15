@@ -71,9 +71,10 @@ p {
   transition: 0.2s; /*Velocidade de transição*/
 }
 
-.button:hover {
-  background-color: #4a0d81;
-  color: #fff;
+/*Configurações Botão JS*/
+.button.clicked {
+  background-color: #ffcc00; /* cor temporária ao clicar */
+  color: #000;
 }
 
 /*Confugurações Roda pé*/
