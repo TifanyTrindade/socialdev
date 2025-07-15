@@ -12,10 +12,17 @@ body {
   padding: 40px 20px;
 }
 
+body {
+  background-image: url(imagens/fundo.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 /* Configurações de Imagem*/
 .profile-img {
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   object-fit: cover;
   border: 3px solid #4a0d81;
@@ -26,6 +33,14 @@ body {
 h1 {
   font-size: 24px;
   margin-bottom: 10px;
+
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out; /* Suaviza a transição de cor */
+}
+
+h1:hover {
+  color: #d5aafb; /* Cor ao passar o mouse (rosa, por exemplo) */
 }
 
 /*Configurações de Botão*/
@@ -44,7 +59,7 @@ h1 {
 }
 
 .button:hover {
-  background-color: #9833f1;
+  background-color: #79529b;
 }
 
 /*Confugurações Roda pé*/
@@ -55,7 +70,7 @@ footer {
   position: fixed; /* Mantém o rodapé fixo */
   bottom: 0; /* Gruda no final da tela */
   width: 100%; /* Ocupa toda a largura */
-  font-size: 15px; /* Tamanho do texto */
+  font-size: 10px; /* Tamanho do texto */
 }
 
 footer p {
@@ -63,6 +78,5 @@ footer p {
 }
 
 footer p:hover {
-  filter: invert(37%) sepia(76%) saturate(680%) hue-rotate(256deg)
-    brightness(91%) contrast(96%);
+  color: #79529b;
 }
