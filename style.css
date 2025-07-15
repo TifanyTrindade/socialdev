@@ -68,7 +68,7 @@ p {
   text-decoration: none;
   font-weight: bold;
   border-radius: 30px;
-  transition: 0.2s; /*Velocidade de transição*/
+  transition: 0.1s; /*Velocidade de transição*/
 }
 
 .button:hover {
