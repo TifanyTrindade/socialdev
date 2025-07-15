@@ -73,8 +73,8 @@ p {
 
 /*Configurações Botão JS*/
 .button.clicked {
-  background-color: #ffcc00; /* cor temporária ao clicar */
-  color: #000;
+  background-color: #951cff; /* cor temporária ao clicar */
+  color: #fff;
 }
 
 /*Confugurações Roda pé*/
