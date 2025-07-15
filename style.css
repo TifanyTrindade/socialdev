@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+/*Confugurações de Body*/
 body {
   margin: 0;
   font-family: "Segoe UI", sans-serif;
@@ -11,27 +12,30 @@ body {
   padding: 40px 20px;
 }
 
+/* Configurações de Imagem*/
 .profile-img {
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid #d4af37;
-  margin-bottom: 10px;
+  border: 3px solid #4a0d81;
+  margin-bottom: 20px;
 }
 
+/*Configurações h1*/
 h1 {
   font-size: 24px;
   margin-bottom: 10px;
 }
 
+/*Configurações de Botão*/
 .button {
   width: 100%;
   max-width: 300px;
   margin: 10px 0;
   padding: 15px;
-  background-color: #d4af37;
-  color: #000;
+  background-color: #4a0d81;
+  color: #fff;
   text-align: center;
   text-decoration: none;
   font-weight: bold;
@@ -40,5 +44,25 @@ h1 {
 }
 
 .button:hover {
-  background-color: #b88d28;
+  background-color: #9833f1;
+}
+
+/*Confugurações Roda pé*/
+footer {
+  color: white;
+  background-color: #161516;
+  text-align: center;
+  position: fixed; /* Mantém o rodapé fixo */
+  bottom: 0; /* Gruda no final da tela */
+  width: 100%; /* Ocupa toda a largura */
+  font-size: 15px; /* Tamanho do texto */
+}
+
+footer p {
+  transition: filter 0.3s ease-in-out; /* Suaviza a transição da cor */
+}
+
+footer p:hover {
+  filter: invert(37%) sepia(76%) saturate(680%) hue-rotate(256deg)
+    brightness(91%) contrast(96%);
 }
